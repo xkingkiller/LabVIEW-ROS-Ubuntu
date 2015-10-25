@@ -1,0 +1,4 @@
+1. Hokoyo laser: sudo chmod a+rw /dev/ttyACM0
+2. . ~/catkin_ws/devel/setup.bash #source workspace, please add to .bashrc.
+3. Remote master: export ROS_MASTER_URI=http://localhost:11311
+4. myRIO: add ROSNode.vi to static VI Reference to load the VI into memory!
